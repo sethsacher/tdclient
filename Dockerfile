@@ -9,3 +9,7 @@ RUN chmod 777 tdaccess_v340_Linux_FSA_64Bit.sfx
 RUN chmod 777 installtd
 RUN ./tdaccess_v340_Linux_FSA_64Bit.sfx
 RUN ./installtd
+# RUN echo "LIBPATH=/root/TDAccess3.4.0" > ~/.profile
+WORKDIR "/root/TDAccess3.4.0"
+
+# ./tdclientc: error while loading shared libraries: libtdlibssh2.so: cannot open shared object file: No such file or directory

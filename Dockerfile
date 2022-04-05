@@ -9,4 +9,3 @@ RUN chmod 777 tdaccess_v340_Linux_FSA_64Bit.sfx
 RUN chmod 777 installtd
 RUN ./tdaccess_v340_Linux_FSA_64Bit.sfx
 RUN ./installtd
-# RUN sh tdsetup.ksh
